@@ -9,6 +9,8 @@ from django.contrib.auth.decorators import login_required
 # kullanıcı girişi-çıkışı için importlar
 from django.contrib.auth import authenticate, login, logout
 
+
+# kayıt
 # Kayıt Olma Fonksiyonu
 def userRegister(request):
     if request.method == 'POST':
